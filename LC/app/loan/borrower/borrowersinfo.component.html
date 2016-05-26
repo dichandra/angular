@@ -1,0 +1,6 @@
+<div *ngIf="borrIds"> 
+    <div *ngFor="#borrId of borrIds; #i=index" class="col-1-4">
+    	<json-to-ui-widget [id]="borrId" [className]="borrClassName" [title]="'useValAt:person.firstName'">Loading Borrower Data...</json-to-ui-widget>
+    </div>
+</div>  
+ 

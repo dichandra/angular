@@ -1,0 +1,22 @@
+ <table border='0' width='50%' cellpadding="0" cellspacing="1">
+<div *ngIf="borrData"> 
+    <div *ngFor="#borr of borrData; #i=index" class="col-1-4">
+    <div *ngIf="borr">
+    	<tr width="100%" border='0'>
+    	<td align='left' width="50%" bgcolor="#E5E4E2"> #{{i}}:&nbsp;Id: {{borr.id}}: &nbsp; Borr/CoBorr:{{borr.applCoAppl}}:{{borr.primaryflag}}</td>
+    	<div *ngIf="!borr.primaryFlag">    	
+    	<td align="left"><button type="button"  (click)="deleteBorrower(borr.id)">Remove Borrower</button></td>
+    	</div>
+    	</tr>
+        <tr width="100%" border='1' bgcolor="#E5E4E2">
+        <td align='left' width="20%"> <label>First Name:</label></td>
+        <td align='left' width="20%"> {{borr.person.firstName}}</td>
+        <td align='left' width="20%"> <label>Last Name: &nbsp;</label></td>
+        <td align='left' width="20%">  {{borr.person.firstName}} </td>
+        <td align='left' width="20%"> <label>SSN # &nbsp;</label></td>
+        <td align='left' width="20%"> {{borr.person.ssn}}</td>
+        </tr>
+    </div>
+    </div>
+</div>  
+</table>

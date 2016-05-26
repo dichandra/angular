@@ -1,0 +1,156 @@
+html{
+    height:100%;
+    position:relative;
+    overflow-y: auto;
+}
+body{
+    min-height:100%;
+    margin: 0px;
+    overflow-y: auto;
+}
+.btnList{
+    border: lightslategray 1px solid;
+    border-radius: 10px;
+}
+
+/*Custom items */
+.vertBlock{
+    height: 100vh;
+    background-color: #171f24;
+    overflow-y: auto;
+    position: fixed;
+}
+
+.navContainer{
+    height: 100%;
+}
+
+.profileRow{
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+
+.widgetContainer{
+    background-color: #FFFFFF;
+    min-height: 250px;
+    max-height: 500px;
+}
+
+.formContiner{
+    background-color: #FFFFFF;
+    min-height: 250px;
+    border-radius: 6px;
+}
+
+.panelAdjust{
+    border: none;
+}
+
+
+.viewPort{
+    background-color: #f2f4f8;
+
+    height: 100vh;
+    /* padding-left: 5%; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow-y: auto;
+
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.vertical-line{
+    width: 5px;
+    height: 100%; /* or height in PX */
+    color: black;
+}
+
+.headerBar{
+    padding-left: 5px;
+}
+.blueCircle{
+    background: #4697ce;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: white;
+}
+.greenCircle{
+    background: #7dcc93;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: white;
+}
+.todoBack{
+    height: 80px;
+
+}
+.statusBack{
+    background: #4f5259;
+}
+.blueback{
+    background-color: #00b3ee;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+.rowAdjust{
+    margin: 0px auto;
+    padding-bottom: 10px;
+}
+
+.controlsAdjust{
+    margin-right: 0px;
+}
+
+.popupStyle{
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    right: 150px;
+    background-color: #00b3ee;
+}
+.mPopup{
+    width: 60%;
+    height: 300px;
+}
+
+.newlead-submit {
+
+    border: 0px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4f5259;
+    padding: 10px 10px;
+    font-family: roboto;
+    font-size: 14px;
+}
+
+.menu_simple ul {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    list-style-type: none;
+}
+/* TRBL */
+.menu_simple ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px 20px 5px;
+    /* background-color: #005555; */
+    display:block;
+}
+
+.menu_simple ul li a:visited {
+    color: white;
+}
+
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: white;
+    /* background-color: #5FD367; */
+}

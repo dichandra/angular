@@ -1,0 +1,49 @@
+   <style>
+    .col-sm-4{
+      margin-bottom: 30px
+    }
+    </style>
+
+    <div class="container-fluid">
+
+        <div class="row rowAlign">
+
+            <div class="col-md-8">
+                <map-widget></map-widget>
+            </div>
+            <div class="col-sm-4">
+                <div class="loginmodal-container">
+                    <h1>Login</h1>
+                    <hr>
+
+                    <form>
+                        <input type="text" placeholder="Username" #userVal>
+                        <input type="password" placeholder="Password" #passWord>
+
+                        <input type="checkbox" id="cbRemember">
+                        <label for="cbRemember" class="chkbox  loginCheckbox">Remember Name</label>
+                        <br>
+                        <br>
+                        <div>
+                            <input type="button" name="login" class="login loginmodal-submit" value="Login"
+                        (click)="handleLogin(userVal.value, passWord.value)">
+                        </div>
+
+
+                    </form>
+                    <div class="login-help"><a href="#">Forgot Password?</a> </div>
+                </div>
+                <br>
+                <weather-widget></weather-widget>
+            </div>
+        </div>
+        <br>
+        <div class="row rowAlign">
+            <div class="col-md-8">
+                <current-events-widget></current-events-widget>
+            </div>
+            <div class="col-md-4" style="background-color: #0d3349; min-height: 20em">
+                <label style="color: #ffffff">Place holder for video</label>
+            </div>
+        </div>
+    </div>

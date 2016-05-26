@@ -1,0 +1,47 @@
+<form>
+    <br/>
+   <div align='right'> <button type="button" class="btn btn-primary" style="width:100px" (click)="saveData(loanId)">Save</button>
+   <a href="#">Reload App</a></div>
+ <div *ngIf="loanId"> 
+<h3>Loan Plan</h3>
+<div class="grid grid-pad">
+    <div *ngFor="let resp of responsibilities" class="col-1-4">
+        <div class="module hero">
+            <h4>{{resp.displayName}}</h4>State: {{resp.state}}<br/>Score: {{resp.score}}<br/>ID:{{resp.responsibilityId}}            
+        </div>
+    </div>
+</div>
+<div class="row">
+            <div class="col-sm-2 vertBlock navColumn">
+             <ul class="nav nBar"> 
+                <tabs>
+                    <tab [tabTitle]="'Section'" #cltab>
+                        <li><a (click)='onSelect(loanId,"AddBorrowers")' style='color:blue'>Add Borrowers </a></li>
+                        <li><a (click)='onSelect(loanId,"BorrowersInfo")' style='color:blue'>Borrowers Info</a></li>
+                        <li><a (click)='onSelect(loanId,"DeleteBorrowers")' style='color:blue'>Delete Borrowers</a></li>
+                        <li><a>Other Info</a></li>
+                        <li><a>Other Info</a></li>
+                        <li><a>Other Info</a></li>
+                        <li><a>Other Info</a></li>
+                        <li><a>Other Info</a></li>
+                        <li><a>Other Info</a></li>
+                    </tab>
+                    <validationtab [tabTitle]="'Validations'" [loanId] ="loanId" #cltab>
+                    </validationtab>
+                </tabs>
+               </ul>
+            </div>
+        </div>   
+        <router-outlet></router-outlet>
+  <!-- calling it through router   <json-to-ui-widget [id]="loanId" [className]="className">Loading Loan Data...</json-to-ui-widget> -->
+    </div>
+    <div *ngIf="searchResponse">
+    <h4>{{searchResponse}}</h4>
+    </div>
+</form>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

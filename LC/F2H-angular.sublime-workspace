@@ -1,0 +1,1079 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ComponentRe",
+				"ComponentResolver	alias"
+			],
+			[
+				"load",
+				"loadNextToLocation	method"
+			],
+			[
+				"Comp",
+				"ComponentRef	alias"
+			],
+			[
+				"l",
+				"loadIntoLocation	method"
+			],
+			[
+				"getC",
+				"getComponent	method"
+			],
+			[
+				"App",
+				"AppShellUtil	alias"
+			],
+			[
+				"n",
+				"navappLoadedEmitter	property"
+			],
+			[
+				"t",
+				"triggerEvent	window.AppshellEventService"
+			],
+			[
+				"is",
+				"isAuthenticated	window.AuthUtil"
+			],
+			[
+				"triggerLogin",
+				"triggerLoginEvent	method"
+			],
+			[
+				"AfterView",
+				"AfterViewInit	alias"
+			],
+			[
+				"Inj",
+				"Injectable	var"
+			],
+			[
+				"AfterV",
+				"AfterViewInit	alias"
+			],
+			[
+				"na",
+				"nativeElement	property"
+			],
+			[
+				"map",
+				"mapElement	property"
+			],
+			[
+				"ne",
+				"getNextId	window.NonpersistedEntityUtil"
+			],
+			[
+				"next",
+				"nextElementSibling	property"
+			],
+			[
+				"inner",
+				"innerText	property"
+			],
+			[
+				"inn",
+				"insertAdjacentText	method"
+			],
+			[
+				"string",
+				"SVGAnimatedString	interface"
+			],
+			[
+				"remove",
+				"removeEditableEntity	method"
+			],
+			[
+				"call",
+				"callServiceInternal	method"
+			],
+			[
+				"getEdita",
+				"getEditableEntity	window.DataUtil"
+			],
+			[
+				"getEditab",
+				"getEditableDataNew	method"
+			],
+			[
+				"j",
+				"j_password	property"
+			],
+			[
+				"getL",
+				"getLoggedInUser	window.AuthUtil"
+			],
+			[
+				"hand",
+				"handleSaveSuccess	method"
+			],
+			[
+				"getBorr",
+				"getBorrowerForCoborrower	method"
+			],
+			[
+				"bor",
+				"borrIds	property"
+			],
+			[
+				"getE",
+				"getEditableEntity	window.DataUtil"
+			],
+			[
+				"ser",
+				"serviceCall	property"
+			],
+			[
+				"class",
+				"className	property"
+			],
+			[
+				"Injec",
+				"Injectable	var"
+			],
+			[
+				"View",
+				"ViewChild	var"
+			],
+			[
+				"number",
+				"number	keyword"
+			],
+			[
+				"cel",
+				"cellspacing	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index-dep.html",
+			"settings":
+			{
+				"buffer_size": 1653,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/main-dep.ts",
+			"settings":
+			{
+				"buffer_size": 534,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 3328,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/repeated-template.component.ts",
+			"settings":
+			{
+				"buffer_size": 9256,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/common/ui/tab/cltabs.component.ts",
+			"settings":
+			{
+				"buffer_size": 1068,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/repeated.component.html",
+			"settings":
+			{
+				"buffer_size": 876,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/dataservice/dataserviceutil.component.ts",
+			"settings":
+			{
+				"buffer_size": 10687,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/dashboard.component.html",
+			"settings":
+			{
+				"buffer_size": 2057,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/app.component.html",
+			"settings":
+			{
+				"buffer_size": 770,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/app.component.js",
+			"settings":
+			{
+				"buffer_size": 4749,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/dashboard.component.ts",
+			"settings":
+			{
+				"buffer_size": 5163,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 129.0,
+		"last_filter": "package control: instal",
+		"selected_items":
+		[
+			[
+				"package control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"advanced",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Package Control: add pa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"installPackage",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 648.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/ui",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/ui/tab",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/dataservice"
+	],
+	"file_history":
+	[
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/index.html",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/dataservice/lcdata.service.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/util/routeutil.service.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/headershell.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loan/borrower/borrowers.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loan/borrower/borrowers.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loan/borrower/borrowersinfo.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/systemjs.config.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/main-dep.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/tsconfig.json",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/package.json",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/ui/tab/cltabs.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/repeated-template.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/main.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/headershell.component.html",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/navshell.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loancenter.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/unsecuredhome.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/unsecuredhome.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/util/routeutil.service.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/main.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/navshell.component.html",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loan/borrower/deleteborrowers.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loan/borrower/deleteborrowers.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loan/borrower/borrowersinfo.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/navshell.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/widgets/WeatherWidget.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/widgets/MapWidget.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/widgets/CurrentEventWidget.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/repeated-template.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/dashboard.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/main-dep.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/appshellevent.service.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/headershell.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/util/appshellutil.service.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/validation/attribute-directive/clabstractvalidator.directive.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/validation/attribute-directive/clsvalidator.directive.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/validation/attribute-directive/clsvalidator.directive.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/validation/validationmanager.service.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/validation/validationmanager.service.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/validation/validationtab.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/validation/validationtab.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/dashboard.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/dataservice/dataserviceutil.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/dataservice/dataserviceutil.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/dataservice/lcdata.service.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loancenter.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/js/angular2_google_maps.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/compiler/compiler.umd.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/compiler/esm/src/util.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/compiler/esm/src/util.js.map",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/compiler/src/util.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/compiler/src/util.js.map",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/core/esm/testing/test_injector.d.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/core/esm/testing/test_injector.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/core/esm/testing/test_injector.js.map",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/core/testing/test_injector.d.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/core/testing/test_injector.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/core/testing/test_injector.js.map",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/router-deprecated/esm/src/instruction.d.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/router-deprecated/esm/src/instruction.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/router-deprecated/esm/src/instruction.js.map",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/router-deprecated/router-deprecated.umd.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/app.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/app.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/appshellevent.service.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/appshell/util/appshellutil.service.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/commonevent.service.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/commonevent.service.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/addrbook/addrbook.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/addrbook/addrbook.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/quickstart/quickstart.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/quickstart/quickstart.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/widgets/CurrentEventWidget.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/widgets/MapWidget.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/widgets/WeatherWidget.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/context/runtimecontext.service.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/context/runtimecontext.service.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/nonpersistedentityutil.service.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/nonpersistedentityutil.service.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/ui/tab/cltab.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/ui/tab/cltab.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/ui/tab/cltabs.component.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/router-deprecated/src/instruction.d.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/router-deprecated/src/instruction.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/node_modules/@angular/router-deprecated/src/instruction.js.map",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loancenter.component.html",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/authutil.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/util/routeutil.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/Work.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/LeadWidget.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/LoansWidget.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/ProfileWidget.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/ScheduleWidget.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/StatusWidget.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/buttons/NavButton.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/buttons/NavButton.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/renderers/LoanListRenderer.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/renderers/LoanListRenderer.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/renderers/StatusListRenderer.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/renderers/StatusListRenderer.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/renderers/ToolTip.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/renderers/ToolTip.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/LeadWidget.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/LoansWidget.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/ProfileWidget.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/ScheduleWidget.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/widgets/StatusWidget.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/windows/StatusWin.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/windows/StatusWin.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/work/Work.js",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/Widets.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/widgets.component.html",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/util.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/components/main/Widets.js.map",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/dashboard.component.html",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/validation/validation.component.html",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/repeated.component.html",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/demo/demo.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/demo/main.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/attribute-directive/clabstractvalidator.directive.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/attribute-directive/clsvalidator.directive.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/ui/cltabs.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/app.component.html",
+		"/C/Users/dichandra/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/common/ui/tab/clstab.component.ts",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loan/borrower/addborrowers.component.html",
+		"/C/projs/CMCLS-USB-Prod3.1.5b3.0-install/appserver/autodeploy/MainEar/Dorado/WEB-INF/angular/app/loan/borrower/deleteborrowers.component.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"<open folders>",
+			"C:\\projs\\CMCLS-USB-Prod3.1.5b3.0-install\\appserver\\autodeploy\\MainEar\\Dorado\\WEB-INF\\angular",
+			"C:\\projs\\CMCLS-USB-Prod3.1.5b3.0-install\\appserver\\autodeploy\\MainEar\\Dorado\\WEB-INF\\angular\\node_modules",
+			"C:\\projs\\CMCLS-USB-Prod3.1.5b3.0-install\\appserver\\autodeploy\\MainEar\\Dorado\\WEB-INF\\angular\\node_modul",
+			"C:\\projs\\CMCLS-USB-Prod3.1.5b3.0-install\\appserver\\autodeploy\\MainEar\\Dorado\\WEB-INF\\angular",
+			"C:\\projs\\CMCLS-USB-Prod3.1.5b3.0-install\\appserver\\autodeploy\\MainEar\\Dorado\\WEB-INF\\angular\\app\\common\\components",
+			"C:\\projs\\CMCLS-USB-Prod3.1.5b3.0-install\\appserver\\autodeploy\\MainEar\\Dorado\\WEB-INF\\angular\\app",
+			"C:\\projs\\LC++\\A2-Hero"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"for",
+			"for(",
+			"ViewContainerRef",
+			"DynamicComponentLoader",
+			"elementRef",
+			"ElementRef",
+			"/router'",
+			"emitDecoratorMetadata",
+			"View",
+			"@View(",
+			"@View",
+			"browser",
+			"platform\\browser",
+			"platform\\",
+			"platform",
+			"platform\\browser",
+			"browser\\",
+			"browser",
+			"platform/browser",
+			"angular2/",
+			"subscribe",
+			"loader",
+			"saveSu",
+			"event",
+			"authutil",
+			"app-module-path",
+			"rxjs",
+			"angular2/angular2",
+			"DynamicComponentLoader",
+			"offset",
+			"getPrototypeOf",
+			"@Injector",
+			"DynamicComponentLoader",
+			"isRR",
+			"isRR\nisRR",
+			"ingnored_packag",
+			"isRR",
+			"clsvalidator",
+			"processResults",
+			"Tour",
+			"Hero",
+			"DynamicComponentLoader",
+			".result",
+			"_evtMgr",
+			"eventManager",
+			"eventmgr",
+			"_evt",
+			"triggerSaveEvent",
+			"prepBorrowersBeforeSave",
+			"EventService",
+			"EventEmitter",
+			"saveemitter",
+			"_data",
+			"datautil.set",
+			".result",
+			".res",
+			".callService(",
+			"callService",
+			".result",
+			"callServiceInternal",
+			"console.debug('Json compare checkpoint",
+			"//console.debug('Json",
+			"save",
+			"getDataTOSave",
+			"dataToSave",
+			"getEditableData",
+			"Util",
+			"expand",
+			"pullMoreData",
+			"readResponse",
+			"dataPulled",
+			"_data",
+			"dataToSave",
+			"util",
+			"Util",
+			"Util.",
+			"getEditableData(",
+			"saveResponse",
+			"comparing ",
+			"getEditableDataNew",
+			"this.serviceC",
+			"this.service",
+			"callService",
+			"setDataToSave",
+			"&nbsp;",
+			"width=\"20%\"",
+			"</label>",
+			"<label>",
+			"lcfetchdata",
+			"loandata",
+			"this.getKey",
+			"comparing",
+			"console.debug('Json compare ",
+			"compareJSON",
+			"//console.debug('",
+			"repeatedcomponent",
+			"pullMoreData",
+			"_dataService",
+			"RepeatedTemplateComponent",
+			"clearEditableDataCache",
+			"console.debug('Json compare",
+			"keys",
+			"Write Response",
+			"_dataSerivce",
+			"_dataService",
+			"DataService",
+			"Heroservice",
+			"heroservice",
+			"dataservice",
+			"each",
+			"Util",
+			"save",
+			"serviceBase",
+			"angular2/core",
+			"RepeatedTemplateComponent",
+			"ero",
+			"hero",
+			"col-1-4",
+			"loanId",
+			"id",
+			"setDataPulled",
+			"welcome to loancenter",
+			"col-1-4",
+			"isRR",
+			"Borrower"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/router-deprecated'",
+			"@angular/",
+			"angular2/core",
+			"//console.debug('Json compare checkpoint",
+			"console.debug('Json",
+			"",
+			"DataUtil.getKey",
+			"//console.debug('Json compare ",
+			"console.debug('",
+			"//console.debug('Json compare"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index-dep.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1307,
+								1307
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/main-dep.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/app.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3139,
+								3139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 1440.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/repeated-template.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3784,
+								3784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1380.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/common/ui/tab/cltabs.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/repeated.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								876,
+								876
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/dataservice/dataserviceutil.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10395,
+								10395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 1740.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/dashboard.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/app.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/app.component.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/dashboard.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 189.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "F2H-angular.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 45.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"DataUtil",
+				"DataUtil"
+			],
+			[
+				"OnInit",
+				"ngOnInit"
+			]
+		],
+		"width": 490.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 379.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

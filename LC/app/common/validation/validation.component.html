@@ -1,0 +1,5 @@
+    <div [hidden]="!active" class="pane">
+     <ul *ngFor="let error of getErrors(); let i=index">
+     	{{error}} - {{getCount(error)}}
+     </ul>
+    </div>

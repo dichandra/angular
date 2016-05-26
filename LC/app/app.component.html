@@ -1,0 +1,16 @@
+
+    <h1 align='center'>{{title}}</h1>
+    <nav align='left' *ngIf="isAuthenticated()">
+      <input placeholder="#loan" [(ngModel)]="loanNumber" style="width:350px"/>
+      <button type="button" class="btn btn-primary" style="width:250px" (click)="searchLoan()">Search Loan</button>
+    <router-outlet (activate)="captureChild($event)"></router-outlet>      
+    </nav>
+    <nav align='left' *ngIf="!isAuthenticated()">
+        <label for="username">User Name:</label>
+        <input id="username" [(ngModel)]="j_username" type="text"/>
+        <label for="password">Password:</label>
+        <input id="password" [(ngModel)]="j_password" type="password"/>
+        <input type="button" value="Log In" (click)="doLogin()"/>
+        <h4>{{loginMessage}}</h4>
+    </nav>
+

@@ -1,0 +1,13 @@
+
+<div *ngIf="borrData">
+ <form #addBorrwersForm="ngForm">
+    <div *ngFor="#borr of borrData; #i=index" class="col-1-4">
+    	#{{i}}{{borr.id}}
+        <label>First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSN #</label><br/> 
+        <input [(ngModel)]="borr.person.firstName" [clsvalidator]="[borr.person,'firstName']" type="text" placeholder="First Name" border='0'/> 
+        <input [(ngModel)]="borr.person.lastName" type="text" placeholder="Last Name" border='0'/> 
+        <input [(ngModel)]="borr.person.ssn" type="text" placeholder="SSN" border='0'/> 
+    </div>
+    </form>
+</div>  
