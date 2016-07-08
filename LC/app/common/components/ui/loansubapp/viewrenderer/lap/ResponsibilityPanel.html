@@ -1,0 +1,6 @@
+<div style="display: inline-block; vertical-align: top;">
+  <div class="resp-div" [style.background-color]="backgroundColor"><h3>&nbsp;{{resp.title}}</h3></div>
+  <activity-group *ngFor="let activityGroup of resp.activityGroupContexts"
+    [activityGroup]="activityGroup">
+  </activity-group>
+</div>

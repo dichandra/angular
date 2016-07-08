@@ -3,15 +3,16 @@ import {Http, Headers, Response, Request, HTTP_PROVIDERS } from '@angular/http';
 import {DataUtil} from './dataserviceutil.component';
 import {Subject} from 'rxjs/Subject';
 import {NonpersistedEntityUtil} from './../common/nonpersistedentityutil.service'; 
-import {EventService} from './../common/commonevent.service'; 
+import {EventService} from './../common/events/commonevent.service'; 
 import {AuthUtil} from './../common/authutil';
 
 @Injectable()
 export class DataService {
     constructor(public http: Http, private npeutil: NonpersistedEntityUtil) { }
-    serviceBase = 'http://localhost/angular/';
+    serviceBase = window.location.protocol+"//"+window.location.hostname+(location.port ? ':'+location.port: '')+"/angular/";//'http://localhost:4567/angular/';
     fetchDataString = '{ "service": "CacheSupportService", "operation":"read", "args":["';
 
+    //This method is deprecated, please use readRoot below.
     getEditableData(toToGet: String, idToGet: number) {
         console.log('in getEditableData');
 
@@ -39,8 +40,9 @@ export class DataService {
             }
             )
     }
-    getEditableDataNew(toToGet: String, idToGet: number,useCache:boolean, callBackMethod: any, errorCallBack: any) {
-        console.log('in getEditableDataNew'+toToGet+' and '+idToGet);
+    //TODO Error handling needs to be done
+    readRoot(toToGet: string, idToGet: number,useCache:boolean, callBackMethod: any, errorCallBack: any) {
+        console.log('in readRoot'+toToGet+' and '+idToGet);
         var args = [];
         args[0] = toToGet;
         args[1] = idToGet;
@@ -49,7 +51,7 @@ export class DataService {
         if (useCache && cachedData) //Have the object in the cache
         {
             args[2] = cachedData.version;
-            //TODO - now that we are consuming cache updates, this should be updated to use poll() instead of readLatest
+            //TODO - now that we are consuming cache updates, this should be updated to use poll() instead of readLatest or removed alltogether
             this.callServiceInternal('CacheSupportService', 'readLatest', args)
                 .subscribe(response => {
                     callResultServer = response.result;
@@ -86,8 +88,39 @@ export class DataService {
                 );
         }
     }
+  //TODO Error handling needs to be done
+    readRootsArray(toToGet: string, idsToGet: Array<number>,callBackMethod: any, errorCallBack: any) {
+        console.log('in readRootsArray'+toToGet+' and '+idsToGet);
+        var args = [];
+        args[0] = toToGet;
+        args[1] = idsToGet;
+        args[2] = null;
+        args[3] = null;
+        args[4] = null;
+        var callResultServer : any;
 
-    callServiceInternal(serviceName:string,operationName:string,args:Array)
+        this.callServiceInternal('CacheSupport', 'readRootsArray', args)
+            .subscribe(response => {
+                callResultServer = response.result;
+            }, err => {
+                console.debug('Error occurred while invoking CacheSupport.readRootsArray ', err); errorCallBack(err);
+            },
+            () => {
+                    console.debug('Call CacheSupport.readRootsArray cmopleted successfully.');
+                    for(let obj of callResultServer)
+                    {
+                        if(obj && obj.id)
+                        {
+                            DataUtil.setEditableData(DataUtil.getKey(toToGet, obj.id), obj);
+                        }
+                    }
+                    callBackMethod(callResultServer);
+            }
+            );
+
+    }
+
+    callServiceInternal(serviceName:string,operationName:string,args:Array<any>)
     {
         var serviceCall = { "service": "", "operation": "", "args": [] };
         var headers = new Headers();
@@ -114,7 +147,7 @@ export class DataService {
             }
             );
     }
-    callService(serviceName: string, operationName: string, args: Array,callBackMethod:any,errorCallBack:any,returnData:string)
+    callService(serviceName: string, operationName: string, args: Array<any>,callBackMethod:any,errorCallBack:any,returnData:string)
     {
         var callResult:any;
         console.debug('in callService method');
@@ -173,7 +206,7 @@ export class DataService {
     }
 
     //Remind: if possible change/wrap to unmutable
-    getReadOnlyData(toToGet: String, idToGet: number) {
+    getReadOnlyData(toToGet: string, idToGet: number) {
         console.log('in readData method');
         let readData = DataUtil.getReadOnlyData(DataUtil.getKey(toToGet, idToGet));
         if (readData) {
@@ -222,15 +255,17 @@ export class DataService {
             var tempTO: String = keys[j].toString().split(':')[0].toString();
             if (tempTO == 'com.dorado.generated.persistence.model.loan.LoanApplicationTO') //push loanTO to end
             {
-                loanData['type'] = keys[j].toString().split(':')[0];
-                loanData['content'] = dataToBeSaved[keys[j]];
+                //loanData['type'] = keys[j].toString().split(':')[0];
+                //loanData['content'] = dataToBeSaved[keys[j]];
+            	loanData = dataToBeSaved[keys[j]];//NEW
                 pushLoan = true;
             }
             else
             {
                 var temp = {};
-                temp['type'] = keys[j].toString().split(':')[0];
-                temp['content'] = dataToBeSaved[keys[j]];
+                //temp['type'] = keys[j].toString().split(':')[0];
+                //temp['content'] = dataToBeSaved[keys[j]];
+                temp = dataToBeSaved[keys[j]];
                 args[1].push(temp);                
             }
         }

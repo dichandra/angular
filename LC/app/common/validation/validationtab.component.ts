@@ -1,5 +1,5 @@
 import {Component,OnInit,OnDestroy,Input} from '@angular/core';
-import {Tab} from './../ui/tab/cltab.component'; 
+import {Tab} from './../components/ui/tab/cltab.component'; 
 import {DataService} from './../../dataservice/lcdata.service';
 import {ValidationManager} from './validationmanager.service';
 

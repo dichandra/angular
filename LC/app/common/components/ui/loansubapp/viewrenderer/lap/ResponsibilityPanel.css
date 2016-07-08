@@ -1,0 +1,14 @@
+.resp-div {
+  font-size: 15px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  width: 170px;
+  display: inline-block;
+  color: rgb(255,255,255);
+}
+
+h3 {
+  font-size: 15px;
+  color: rgb(255,255,255);
+}

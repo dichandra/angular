@@ -6,7 +6,7 @@ import {NavApp,NavShell} from './common/appshell/navshell.component';
 import {HeaderShell} from './common/appshell/headershell.component';
 import {RouteUtil} from "./common/util/routeutil.service";
 import {NonpersistedEntityUtil} from './common/nonpersistedentityutil.service';
-import {EventService} from './common/commonevent.service';
+import {EventService} from './common/events/commonevent.service';
 import {ValidationManager} from './common/validation/validationmanager.service';
 import {DataService} from './dataservice/lcdata.service'
 import {AuthUtil} from './common/authutil';
@@ -52,7 +52,6 @@ export class LoanCenterApp implements OnInit,OnDestroy
     ngOnInit()
     {
         //TODO - this part should happen only after login, should not repeat on each initialization
-        console.debug('AppShell: initializting app navigation bar');
         this.loginSubscription = EventService.loginEmitter.subscribe((data) => {
             this.handleLogin(data);
         });
@@ -68,7 +67,6 @@ export class LoanCenterApp implements OnInit,OnDestroy
         //pull apps user has access to and add them into router configuration
         this.navApps=this.getNavApps();
         this.navApps.forEach((app) => {
-            console.debug('Adding app: '+app);
             this.routeUtil.addRoute(this.constructor, this.routeUtil.createAsyncRoute(app));
         });
         this.router.navigate(['QuickStart']);

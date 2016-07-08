@@ -1,0 +1,10 @@
+<div>
+
+    <loan-list-renderer
+      *ngFor="#loan of loans"
+      [model]="loan"
+      (click)="selectLoan(loan)">
+
+      </loan-list-renderer>
+      
+</div>

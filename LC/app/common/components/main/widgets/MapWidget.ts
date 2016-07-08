@@ -32,7 +32,7 @@ import {Component,ViewChild,ElementRef, AfterViewInit} from '@angular/core';
 	      <div class="col-md-12">
 			Real Estate
 	      </div>
-	      <img src="icons/plusIconDrk.png" style="color: gray">
+	      <img src="assets/icons/plusIconDrk.png" style="color: gray">
 	    </div>
 	    <div class="panel-body">
 	        <div #map id="map" class="mapStyle"></div>

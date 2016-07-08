@@ -2,7 +2,7 @@ import {Component, OnInit, OnDestroy} from '@angular/core';
 import {RouteParams} from '@angular/router-deprecated';
 import {DataService} from './../../dataservice/lcdata.service';
 import {RepeatedComponent} from './../../repeated-template.component';
-import {EventService} from './../../common/commonevent.service';
+import {EventService} from './../../common/events/commonevent.service';
 import {DataUtil} from './../../dataservice/dataserviceutil.component';
 @Component({
     selector: 'borrowersinfo',
@@ -26,7 +26,7 @@ export class BorrowersInfoComponent implements OnInit, OnDestroy {
 		/*
 		*/
 		//create transient tos for borrower pair
-		this._dataService.getEditableDataNew('com.dorado.generated.persistence.model.loan.LoanApplicationTO', 
+		this._dataService.readRoot('com.dorado.generated.persistence.model.loan.LoanApplicationTO', 
 			this._loanId,true,data => this.handleGetLoan(data),err => this.hanelError(err));
 	}
 	private handleGetLoan(response: any)

@@ -11,25 +11,29 @@ import {QuickStartHeader} from './../components/main/quickstart/quickstart.compo
 export class HeaderShell implements OnInit, OnDestroy,AfterViewInit
 {
     @ViewChild('dynamicHeaderContent', { read: ViewContainerRef }) container: ViewContainerRef;
-    @ViewChild('divdyna', { read: ViewContainerRef }) ddyna;
 
 
     private navAppLoadedSubscription: any;
     private headerComp:any;
-    private headerComps: Array<any> = ['This is it'];
 
     constructor(private vcf: ViewContainerRef, private injector: Injector,
         private routeUtil: RouteUtil,private compResolver:ComponentResolver) 
-    {}
+    {
+    }
     ngOnInit() 
     {
         console.debug('initializing the comp');
     }
     ngAfterViewInit()
     {
-        this.navAppLoadedSubscription = AppshellEventService.navappLoadedEmitter.subscribe((data) => {
-            this.updateHeader(data);
-        });
+
+        if (!this.navAppLoadedSubscription)
+        {
+            console.debug('Subscription is added: ');
+            this.navAppLoadedSubscription = AppshellEventService.navappLoadedEmitter.subscribe((data) => {
+                this.updateHeader(data);
+            });
+        }
     }
     updateHeader(navComp) {
         //load the header component next to marker
@@ -44,7 +48,6 @@ export class HeaderShell implements OnInit, OnDestroy,AfterViewInit
     }
     updateHeaderCallback(comp: ComponentRef<any>)
     {
-        console.debug('this is callback with ComponentRef: '+comp);
         this.headerComp = comp;
     }
     ngOnDestroy()

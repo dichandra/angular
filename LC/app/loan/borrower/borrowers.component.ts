@@ -1,7 +1,7 @@
 import {Component, OnInit,OnDestroy} from '@angular/core';
 import {RouteParams} from '@angular/router-deprecated';
 import {DataService} from './../../dataservice/lcdata.service';
-import {EventService} from './../../common/commonevent.service';
+import {EventService} from './../../common/events/commonevent.service';
 import {DataUtil} from './../../dataservice/dataserviceutil.component';
 import {CLSValidator} from './../../common/validation/attribute-directive/clsvalidator.directive';
 @Component({

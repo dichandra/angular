@@ -1,0 +1,11 @@
+<div class="container-fluid">
+    <div class="row" *ngIf="loanAppProx">
+        <div class="col-md-1 col-sm-offset-1 .text-left">{{loanAppProx.loanNumber}}</div>
+        <div class="col-md-3 col-sm-offset-1 .text-left">{{loanAppProx.originOrg}}</div>    
+        <div class="col-md-1 col-sm-offset-1 .text-left">{{loanAppProx.borrowers[0].firstname}}&nbsp;{{loanAppProx.borrowers[0].lastname}}</div>    
+    </div>
+    <br>
+<div class="row" *ngIf="planContextTO">
+	<planrenderer [planContextTO]="planContextTO"></planrenderer>
+</div>
+</div>

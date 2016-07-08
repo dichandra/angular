@@ -9,8 +9,8 @@ import {BorrowerComponent} from './loan/borrower/borrowers.component';
 import {BorrowersInfoComponent} from './loan/borrower/borrowersinfo.component';
 import {DeleteBorrowerComponent} from './loan/borrower/deleteborrowers.component';
 import {AuthUtil} from './common/authutil';
-import {Tabs} from './common/ui/tab/cltabs.component';
-import {Tab} from './common/ui/tab/cltab.component';
+import {Tabs} from './common/components/ui/tab/cltabs.component';
+import {Tab} from './common/components/ui/tab/cltab.component';
 import {ValidationTab} from './common/validation/validationtab.component';
 
 

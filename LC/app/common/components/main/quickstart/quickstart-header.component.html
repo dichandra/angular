@@ -1,0 +1,37 @@
+    <img src="assets/icons/search.png">
+    <label></label>
+   <input placeholder="Search a Loan#, Borrower or Subject Property Address"
+    class="input" style="width:360px;height:32px" #searchQuery/>
+    <button type="button" class="btn btn-primary" style="width:250px" (click)="searchLoan(searchQuery.value)">Search Loan</button>
+    <div id=#qsSearchResult *ngIf="showSearchResultPanel">
+         <div class="container-fluid" *ngIf="!searchResponse">
+            <div class="row">
+               
+            </div>
+                <div class="col-md-8">
+                    <div class="col-md-3">
+                        {{loan.borrowers[0].firstname}} {{loan.borrowers[0].lastname}}
+                    </div>
+                    <div class="col-md-2">
+                        <a (click)='openLoan(searchResponseData);closeSearchResultPanel();' style='color:blue'>{{loan.loanNumber}}</a>
+                    </div>
+                    <div class="col-md-2">
+                        {{loan.loanAmount}} 
+                    </div>
+                    <div class="col-md-1">
+                    <button type="button" class="btn" style="width:40px" (click)="closeSearchResultPanel()">X
+                    </button>
+                    </div>                    
+                </div>
+             </div>
+
+   
+         <div class="container-fluid" *ngIf="searchResponse">
+            <div class="row">
+             <h4> {{searchResponse}}              <button type="button" class="btn" style="width:40px" (click)="closeSearchResultPanel()">X
+                    </button> </h4>
+
+            </div>
+
+        </div>        
+    </div>

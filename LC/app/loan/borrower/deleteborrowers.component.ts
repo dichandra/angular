@@ -20,7 +20,7 @@ export class DeleteBorrowerComponent implements OnInit, OnDestroy {
 		this.borrData = [];
 		this._loanId = this._routerParams.get('id');
 
-		this._dataService.getEditableDataNew('com.dorado.generated.persistence.model.loan.LoanApplicationTO', this._loanId,true
+		this._dataService.readRoot('com.dorado.generated.persistence.model.loan.LoanApplicationTO', this._loanId,true
 			,data=> this.handleGetLoan(data),err=> handleError(err));
 		
 	}
@@ -46,7 +46,7 @@ export class DeleteBorrowerComponent implements OnInit, OnDestroy {
             });
 	}*/
 	getBorrowerDetails(index: number, borrowerId: number) {
-        this._dataService.getEditableDataNew(this.borrClassName, borrowerId,true, 
+        this._dataService.readRoot(this.borrClassName, borrowerId,true, 
         	data => { this.borrData[index] = data }, err => this.handleError(err));
 	}	
 	ngOnDestroy() {

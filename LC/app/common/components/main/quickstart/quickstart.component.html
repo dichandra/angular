@@ -1,0 +1,7 @@
+	    <div class="row-fluid" *ngIf="!qs">
+                <clwidget [widgetComp]="getWidgetComp()"></clwidget>
+                 <clwidget [widgetComp]="getWidgetComp()"></clwidget>
+        </div>
+       	<div class="row-fluid" *ngIf="qs">
+                <loansubapp [searchResult]="getSearchResult()"></loansubapp>
+        </div>

@@ -1,5 +1,5 @@
 import {Injectable, EventEmitter} from '@angular/core';
-import {EventService} from './../commonevent.service';
+import {EventService} from './../events/commonevent.service';
 
 @Injectable()
 export class AppshellEventService 

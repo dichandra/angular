@@ -1,0 +1,27 @@
+.activity-div {
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  width: 170px;
+  margin: 2px 0px 2px 0px;
+  color: rgb(255,255,255);
+  background-color: rgb(160,150,180);
+  display: block;
+  vertical-align: "middle";
+}
+
+a {
+  font-size: 14px;
+  border-radius: 8px;
+  color: rgb(255,255,255);
+  display: inline;
+  text-decoration: none;
+}
+
+img {
+  margin-left: 0px;
+  margin-top: 3px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  float: right;
+}

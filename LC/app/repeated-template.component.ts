@@ -3,7 +3,7 @@ import { Component, OnInit,DynamicComponentLoader,ElementRef,
 import { Router,RouteParams } from '@angular/router-deprecated';
 import {DataUtil} from "./dataservice/dataserviceutil.component";
 import {DataService} from './dataservice/lcdata.service'
-import {EventService} from './common/commonevent.service';
+import {EventService} from './common/events/commonevent.service';
 import {CLSValidator} from './common/validation/attribute-directive/clsvalidator.directive';
 
 
@@ -59,7 +59,7 @@ export class RepeatedComponent implements OnInit {
                 .subscribe(response => {
                     this.processResult(response);
                 }); */    
-            this._dataService.getEditableDataNew(this.className,this.id,true,data => this.processResult(data), 
+            this._dataService.readRoot(this.className,this.id,true,data => this.processResult(data), 
                 error => this.processError(error))       
         }
 
@@ -110,7 +110,7 @@ export class RepeatedComponent implements OnInit {
                     if (DataUtil.pullData((data[temp[i]]['className']), (data[temp[i]]['id'])))
                     {
                         //console.debug('pulling if'+Util.pullData((data[temp[i]]['className']),(data[temp[i]]['id']))+" ,"+temp[i]);
-                        //this._dataService.getEditableDataNew(temp[i], (data[temp[i]]['className']), (data[temp[i]]['id']),true,);
+                        //this._dataService.readRoot(temp[i], (data[temp[i]]['className']), (data[temp[i]]['id']),true,);
                         this.pullAndPaintData(temp[i],(data[temp[i]]['className']),(data[temp[i]]['id']));
                         //this.addFakeTemplate(temp[i],this.pullData((data[temp[i]]['className']),(data[temp[i]]['id'])));
                     }

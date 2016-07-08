@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {EventService} from './../common/commonevent.service'; 
+import {EventService} from './../common/events/commonevent.service'; 
 
 @Injectable()
 export class DataUtil {
@@ -31,6 +31,7 @@ export class DataUtil {
             // this did not 'clone' child objects i.e. child objects seems to be references
             // this.editableDataClone[key] = Object.assign({}, toObj);
             this.editableDataClone[key] = JSON.parse(JSON.stringify(toObj));
+            EventService.triggerEvent(EventService.readRootEmitter,key);
     }
     public static getEditableData(): any {
         return this.editableData;

@@ -4,7 +4,7 @@ import {DataService} from './dataservice/lcdata.service'
 import { DashboardComponent } from './dashboard.component';
 import { BorrowerComponent } from './loan/borrower/borrowers.component';
 import {NonpersistedEntityUtil} from './common/nonpersistedentityutil.service'; 
-import {EventService} from './common/commonevent.service'; 
+import {EventService} from './common/events/commonevent.service'; 
 import {AuthUtil} from './common/authutil';
 import {ValidationManager} from './common/validation/validationmanager.service';
 

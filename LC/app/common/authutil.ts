@@ -1,4 +1,4 @@
-import {EventService} from './commonevent.service';
+import {EventService} from './events/commonevent.service';
 export class AuthUtil
 {
 	private static loginResult: any;

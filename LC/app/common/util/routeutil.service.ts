@@ -63,9 +63,12 @@ export class RouteUtil {
 	}
 	loadComponent(compFile: string, compName: string, cr: ComponentResolver, vcr: ViewContainerRef, callback: Function) 
 	{
+		//console.debug(compFile+', '+compName+', '+cr+', '+vcr+', '+callback);
         System.import(compFile)
             .then(m => {
+				//console.debug(' resolve Compnent :' + eval('m.' + compName));
 				cr.resolveComponent(eval('m.' + compName)).then(factory => {
+					//console.debug('callback '+factory);
 					callback(vcr.createComponent(factory, 0));
 				});
 			})
